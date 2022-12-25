@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from './Components/home/Home';
 import About from './Components/about/About';
+import Coursehome from './Components/allcourses/Coursehome';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/about' exact element={<About />} />
+          <Route path='/course'  element={<Coursehome />} />
         </Routes>
       </Router>
     </>
