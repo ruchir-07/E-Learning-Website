@@ -5,6 +5,7 @@ import './App.css'
 import Home from './Components/home/Home';
 import About from './Components/about/About';
 import Coursehome from './Components/allcourses/Coursehome';
+import Team from './Components/team/Team';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='/' exact element={<Home />} />
           <Route path='/about' exact element={<About />} />
           <Route path='/course'  element={<Coursehome />} />
+          <Route path='/team'  element={<Team />} />
         </Routes>
       </Router>
     </>
