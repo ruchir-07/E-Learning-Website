@@ -7,6 +7,7 @@ import About from './Components/about/About';
 import Coursehome from './Components/allcourses/Coursehome';
 import Team from './Components/team/Team';
 import Price from './Components/pricing/Price';
+import Blog from './Components/blog/Blog';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/course'  element={<Coursehome />} />
           <Route path='/team'  element={<Team />} />
           <Route path='/pricing'  element={<Price />} />
+          <Route path='/journal'  element={<Blog />} />
         </Routes>
       </Router>
     </>
