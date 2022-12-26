@@ -8,6 +8,7 @@ import Coursehome from './Components/allcourses/Coursehome';
 import Team from './Components/team/Team';
 import Price from './Components/pricing/Price';
 import Blog from './Components/blog/Blog';
+import Contact from './Components/contact/Contact';
 
 
 const App = () => {
@@ -17,11 +18,12 @@ const App = () => {
         <Header />
         <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path='/about' exact element={<About />} />
+          <Route path='/about' element={<About />} />
           <Route path='/course'  element={<Coursehome />} />
           <Route path='/team'  element={<Team />} />
           <Route path='/pricing'  element={<Price />} />
           <Route path='/journal'  element={<Blog />} />
+          <Route path='/contact'  element={<Contact />} />
         </Routes>
       </Router>
     </>
