@@ -9,7 +9,7 @@ import Team from './Components/team/Team';
 import Price from './Components/pricing/Price';
 import Blog from './Components/blog/Blog';
 import Contact from './Components/contact/Contact';
-
+import Footer from './Components/common/footer/Footer'
 
 const App = () => {
   return (
@@ -25,6 +25,7 @@ const App = () => {
           <Route path='/journal'  element={<Blog />} />
           <Route path='/contact'  element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
